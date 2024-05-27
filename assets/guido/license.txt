@@ -1,0 +1,11 @@
+Model Information:
+* title:	guido from cars
+* source:	https://sketchfab.com/3d-models/guido-from-cars-c77a337bdf164b80aba915c90958ff6f
+* author:	Kyle.withem (https://sketchfab.com/Kyle.withem)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "guido from cars" (https://sketchfab.com/3d-models/guido-from-cars-c77a337bdf164b80aba915c90958ff6f) by Kyle.withem (https://sketchfab.com/Kyle.withem) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

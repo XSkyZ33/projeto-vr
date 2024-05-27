@@ -1,0 +1,11 @@
+Model Information:
+* title:	Metal Bridge
+* source:	https://sketchfab.com/3d-models/metal-bridge-3348644b348f4c46bd237e913c2884ce
+* author:	Vladyslav Holhanov (https://sketchfab.com/vladicom08)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Metal Bridge" (https://sketchfab.com/3d-models/metal-bridge-3348644b348f4c46bd237e913c2884ce) by Vladyslav Holhanov (https://sketchfab.com/vladicom08) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

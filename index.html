@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cidade</title>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+
+        <a-assets>
+            <a-asset-item id="court" src="assets/campo/scene.gltf"></a-asset-item>
+            <a-asset-item id="city" src="assets/city/scene.gltf"></a-asset-item>
+            <a-asset-item id="npc" src="assets/npc/scene.gltf"></a-asset-item>
+            <a-asset-item id="heli" src="assets/heli/scene.gltf"></a-asset-item>
+            <a-asset-item id="skatepark" src="assets/skate park/scene.gltf"></a-asset-item>
+            <a-asset-item id="ponte1" src="assets/ponte n1/scene.gltf"></a-asset-item>
+            <a-asset-item id="futebol" src="assets/futebol/scene.gltf"></a-asset-item>
+            <a-asset-item id="bolabasket" src="assets/Bola de basket/scene.gltf"></a-asset-item>
+            <a-asset-item id="skateman" src="assets/skate man/scene.gltf"></a-asset-item>
+            <a-asset-item id="carro" src="assets/carro/scene.gltf"></a-asset-item>
+            <a-asset-item id="carro2" src="assets/carro2/scene.gltf"></a-asset-item>
+            <a-asset-item id="policia" src="assets/Carro policia/scene.gltf"></a-asset-item>
+            <!-- <a-asset-item id="homem_1" src="assets/homem andar/scene.gltf"></a-asset-item>
+            <a-asset-item id="homem_2" src="assets/homem andar 2/scene.gltf"></a-asset-item>
+            <a-asset-item id="homem_3" src="assets/homem andar 3/scene.gltf"></a-asset-item>
+            <a-asset-item id="homem_4" src="assets/homem andar 4/scene.gltf"></a-asset-item>
+            <a-asset-item id="mulher1" src="assets/mulher a andar 1/scene.gltf"></a-asset-item> -->
+            <a-asset-item id="homem_4" src="assets/homem andar 4/scene.gltf"></a-asset-item>
+            <a-asset-item id="ciclista" src="assets/ciclista/scene.gltf"></a-asset-item>
+            <a-asset-item id="aviao" src="assets/aviao/scene.gltf"></a-asset-item>
+            <a-asset-item id="cao" src="assets/cao/scene.gltf"></a-asset-item>
+            <a-asset-item id="cao2" src="assets/cao2/scene.gltf"></a-asset-item>
+            <a-asset-item id="multidao" src="assets/multidao/scene.gltf"></a-asset-item>
+            <a-asset-item id="carro3" src="assets/carro3/scene.gltf"></a-asset-item>
+            <a-asset-item id="estatua" src="assets/estatua/scene.gltf"></a-asset-item>
+            <a-asset-item id="mcqueen" src="assets/mcqueen/scene.gltf"></a-asset-item>
+            <a-asset-item id="mate" src="assets/Mate/scene.gltf"></a-asset-item>
+            <a-asset-item id="dinoco" src="assets/dinoco/scene.gltf"></a-asset-item>
+            <a-asset-item id="luigi" src="assets/Luigi/scene.gltf"></a-asset-item>
+            <a-asset-item id="guido" src="assets/guido/scene.gltf"></a-asset-item>
+            <a-asset-item id="doc" src="assets/doc/scene.gltf"></a-asset-item>
+            <a-asset-item id="girafa" src="assets/girafa/scene.gltf"></a-asset-item>
+            <a-asset-item id="leao" src="assets/leao/scene.gltf"></a-asset-item>
+            <a-asset-item id="zebra" src="assets/zebra/scene.gltf"></a-asset-item>
+            <a-asset-item id="hipo" src="assets/hipo/scene.gltf"></a-asset-item>
+            <a-asset-item id="bolafut" src="assets/bolaFut/scene.gltf"></a-asset-item>
+
+ 
+        </a-assets>
+        <a-entity gltf-model="#court" position="-125 -41 -150" scale="6 6 6" rotation="0 90 0"></a-entity>
+        <a-entity gltf-model="#court" position="-95 -41 -150" scale="6 6 6" rotation="0 90 0"></a-entity>
+        <a-entity gltf-model="#city" scale="0.02 0.02 0.02" position="0 -40 0"></a-entity>
+        <a-entity gltf-model="#skatepark" position="-105 -40 -240" scale="18 14 14"></a-entity>
+        <a-entity gltf-model="#ponte1" position="-160 -40 -55" rotation="0 90 0" scale="4 4 4"></a-entity>
+        <a-entity gltf-model="#futebol" position="-240 -38 -55" scale="1 1 1"></a-entity>
+        <a-entity gltf-model="#estatua" position="8 -25 -140" scale="15 15 15"></a-entity>
+        <a-entity gltf-model="#estatua" position="25 -25 -140" scale="15 15 15"></a-entity>
+        <a-entity gltf-model="#bolafut" position="-240 -40 -89" scale="0.2 0.2 0.2"></a-entity>
+
+    
+    NPCS
+    <a-entity gltf-model="npc" scale="3.5 3.5 3.5"></a-entity>
+    <a-entity gltf-model="#npc" position="-110 -40.5 0" scale="3.5 3.5 3.5"></a-entity>
+    <!-- <a-entity gltf_model="#mulher1" position="-80 90 -150" scale="1 1 1" ></a-entity>  -->
+    <a-entity gltf-model="#npc" scale="2 2 2" position="-80 -40 -150"></a-entity>
+    <a-entity gltf-model="#cao" scale="0.4 0.4 0.4" rotation="0 180 0" position="-80 -40 -146"></a-entity>
+    <a-entity gltf-model="#cao2" scale="0.6 0.6 0.6" rotation="0 180 0" position="-80 -40 -242"></a-entity>
+    <a-entity gltf-model="#multidao" position="-42 -40 -180" rotation="0 90 0" scale="1.5 1.5 1.5"></a-entity>
+    <a-entity gltf-model="#multidao" position="-42 -40 -260" rotation="0 90 0" scale="1.5 1.5 1.5"></a-entity>
+    <a-entity gltf-model="#luigi" position="-91 -40 -70" scale="0.04 0.04 0.04"></a-entity>
+    <a-entity gltf-model="#guido" position="-120 -40 -70" scale="1 1 1"></a-entity>
+    <a-entity gltf-model="#doc" position="-105 -40 -82" scale="3.2 3.2 3.2" rotation="0 90 0"></a-entity>
+    <a-entity gltf-model="#girafa" position="-240 -39 -84" scale="3.5 3.5 3.5" rotation="0 90 0"></a-entity>
+    <a-entity gltf-model="#leao" position="-230 -40 -88" scale="0.7 0.7 0.7" rotation="0 -90 0"></a-entity>
+    <a-entity gltf-model="#zebra" position="-252 -40 -90" scale="0.9 0.9 0.9" rotation="0 90 0"></a-entity>
+    <a-entity gltf-model="#hipo" position="-237 -40 -96" scale="2.5 2.5 2.5" rotation="0 -90 0"></a-entity>
+
+
+
+
+
+
+    Animações
+
+    <a-entity gltf-model="#bolabasket" position="-95 -37 -150" scale="0.5 0.5 0.5"></a-entity>
+    <a-entity gltf-model="#skateman" position="-105 -39.3 -242" scale="4 4 4" animation="property: position; to: -109 -38.7 -242; loop: true; dur: 5000; easing: linear;"></a-entity>
+    <a-entity gltf-model="#carro" position="57 -40 -70" scale="0.03 0.03 0.03" animation="property: position; to: 57 -40 -270; dur: 20000; easing: linear;"></a-entity>
+    <a-entity gltf-model="#carro2" position="20 -40 -51" scale="0.015 0.015 0.015" rotation="0 -90 0" animation="property: position; to: -140 -40 -51; dur: 35000; easing: linear;" ></a-entity>
+    <a-entity gltf-model="#policia" position="-140 -40 -60" scale="2 2 2" rotation="0 90 0" animation="property: position; to: -40 -40 -60; dur: 25000; easing: linear;" ></a-entity>
+    <a-entity gltf-model="#heli" position="-80 90 -120" animation= "property:rotation; to: -40 90 60; loop: true; dur: 10000; easing: linear">
+        <a-entity gltf-model="#heli" position="-80 90 -120"  animation= "property:rotation; to: 20 86 30; loop: true; dur: 6000; easing: linear" ></a-entity>
+    </a-entity>
+    <a-entity gltf-model="#ciclista" scale="1 1 1" position="-25 -38.5 -150" rotation="0 90 0" animation="property: position; to: -25 -38.5 -260; dur: 36000; easing: linear;"></a-entity>
+    <a-entity gltf-model="#aviao" position="-190 150 -230" scale="12 12 12" rotation="0 90 0" animation="property: position; to: 110 150 -230; loop: true; dur: 10000; easing: linear;" ></a-entity>
+    <a-entity gltf-model="#carro3" scale="1 1 1" position="-20 -38 -270"  animation="property: position; to: -19 -38 -70; dur: 36000; easing: linear;"></a-entity> 
+    <a-entity gltf-model="#mcqueen" scale="1 1 1" position=" -64 -40 -40" rotation="0 180 0" animation="property: position; to: -64 -40 -330; dur: 25000; easing: linear;"></a-entity> 
+    <a-entity gltf-model="#mate" scale="1.2 1.2 1.2" position=" -64 -40 -15" rotation="0 180 0" animation="property: position; to: -64 -40 -300; dur: 28500; easing: linear;"></a-entity> 
+    <a-entity gltf-model="#dinoco" scale="6 6 6" position=" -64 -37 20" rotation="0 90 0" animation="property: position; to: -64 -37 -270; dur: 31000; easing: linear;"></a-entity> 
+
+
+
+    .0
+    <a-box  color="#45d4ed" width="2  " height="3" depth="1.5"></a-box>
+    <a-box color="#cf9e7c" position="0 2.5 0" width="2" height="2" depth="1.5"></a-box>
+    <a-box color="#cf9e7c" width="0.95" height="3" depth="1.5" position="1.5 0 0"></a-box>
+    <a-box color="#cf9e7c" width="0.95" height="3" depth="1.5" position="-1.5 0 0"></a-box>
+    <a-box color="#0000ff" width="1" height="3" depth="1" position="-0.52 -2.25 0"></a-box>
+    <a-box color="#0000ff" width="1" height="3" depth="1" position="0.52 -2.25 0"></a-box>
+    <a-box color="#797986" width="1" height="0.80" depth="1" position="0.52 -3.45 0"></a-box>
+    <a-box color="#797986" width="1" height="0.80" depth="1" position="-0.52 -3.5 0"></a-box>
+    <a-box color="#45d4ed" width="0.95" height="1.3" depth="1.5" position="-1.5 0.85 0"></a-box>
+    <a-box color="#45d4ed" width="0.95" height="1.3" depth="1.5" position="1.5 0.85 0"></a-box>
+    
+    
+    olhos
+    <a-box color="white" position="0.4 2.70 0.0" width="0.5" height="0.3" depth="1.5" ></a-box>
+    <a-box color="white" position="-0.4 2.70 0.0" width="0.5" height="0.3" depth="1.5" ></a-box>
+    <a-box color="#4d0099" position="-0.28 2.70 0.0" width="0.25" height="0.3" depth="1.5" ></a-box>
+    <a-box color="#4d0099" position="0.28 2.70 0.0" width="0.25" height="0.3" depth="1.5" ></a-box>
+    cabelo
+    <a-box color="#3d1010" position="0 3.5 0" width="2" height="0.60" depth="1.5"></a-box>
+    <a-box color="#3d1010" position="0.88 3.05 0" width="0.25" height="0.3" depth="1.5" ></a-box>
+    <a-box color="#3d1010" position="-0.88 3.05 0" width="0.25" height="0.3" depth="1.5" ></a-box>
+    boca
+    <a-box color="#3d1010" position="0 1.65 0" width="1.2" height="0.30" depth="1.5"></a-box>
+    <a-box color="#3d1010" position="-0.45 1.85 0" width="0.30" height="0.30" depth="1.5"></a-box>
+    <a-box color="#3d1010" position="0.45 1.85 0" width="0.30" height="0.30" depth="1.5"></a-box>
+
+    nariz
+    <a-box color="#7a1f1f" position="0 2.22 0" width="0.35" height="0.20" depth="1.5" ></a-box>
+
+
+    
+    <a-camera position="0 -20 0"></a-camera>
+
+
+
+    
+    
+    <a-sky src="images.jpg">
+
+        </a-sky>
+    </a-scene>
+</body>
+
+</html>
